@@ -242,9 +242,9 @@ $('#starting-game-modal').on('hidden.bs.modal', function (e) {
             playerMove(1);
         } else if (event.key === 'ArrowDown') {
             playerDrop();
-        } else if (event.key === 'q') {
+        } else if (event.key === 'q' || event.key === 'Q') {
             playerRotate(-1);
-        } else if (event.key === 'w') {
+        } else if (event.key === 'w' || event.key === 'W') {
             playerRotate(1);
         }
     });
